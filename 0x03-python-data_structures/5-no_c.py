@@ -1,10 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 def no_c(my_string):
-    """This string is removing all c from string"""
-    if my_string is None:
-        return None
-    result = ""
-    for char in range(len(my_string)):
-        if my_string[char] != 'c' and my_string[char] != 'C':
-            result += my_string[char]
-    return (result)
+    """Function that removes all c and C characters from a given string"""
+    new_string = ""
+    for i in range(len(my_string)):
+        if my_string[i] != 'c' and my_string[i] != 'C':
+            new_string += my_string[i]
+    return new_string
