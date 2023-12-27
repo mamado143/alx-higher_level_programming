@@ -1,8 +1,6 @@
-#!/usr/bin/python3i
+#!/usr/bin/python3
 def uniq_add(my_list=[]):
-    """
-    This function takes a list and returns a list with the duplicates removed.
-    """
+    """adds all unique integers in a given list."""
     sum = 0
     for i in set(my_list):
         sum += i
