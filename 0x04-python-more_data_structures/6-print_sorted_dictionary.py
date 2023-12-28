@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 def print_sorted_dictionary(a_dictionary):
-    myKeys = list(a_dictionary.keys())
-    myKeys.sort()
-    print( myKeys)
+    """
+    prints a dictionary by ordered keys.
+    :param a_dictionary:
+    :return:
+    """
+    for key in sorted(a_dictionary.keys()):
+        print(f"{key}: {a_dictionary[key]}")
