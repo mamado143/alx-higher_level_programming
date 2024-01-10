@@ -1,13 +1,12 @@
 #!/usr/bin/python3
 
 """Defines function that returns jsoni."""
+import json
+
 
 def to_json_string(my_obj):
-    """Returns the JSON representation of a string object.
+    """Returns the JSON representation of a string object."""
+    return json.dumps(my_obj)
+   
 
-    Args:
-        my_obj (object): object to be converted to JSON.
-    """
-    import json
-    json_string = json.dumps(my_obj)
-    return json_string
+    
