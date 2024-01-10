@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+"""write_file."""
+def write_file(filename="", text=""):
+    """
+    write_file.
+    
+    Args:
+        filename: name of file.
+        text: text to write.
+    """
+    with open(filename, encoding="utf-8") as f:
+        return f.write(text)
