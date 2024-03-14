@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 
 const value = parseInt(process.argv[2]);
@@ -12,4 +11,3 @@ if (isNaN(value)) {
     i++;
   }
 }
-
