@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 
 // const value = parseInt(process.argv[2]);
@@ -9,4 +8,3 @@ if (isNaN(value)) {
 } else {
   console.log('My number: ' + value);
 }
-
