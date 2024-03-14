@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 function addMeMaybe (number, theFunction) {
   number++;
@@ -6,4 +5,3 @@ function addMeMaybe (number, theFunction) {
 }
 
 module.exports.addMeMaybe = addMeMaybe;
-
