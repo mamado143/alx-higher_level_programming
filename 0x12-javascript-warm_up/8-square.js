@@ -14,4 +14,3 @@ if (isNaN(value)) {
     console.log(width);
   }
 }
-
