@@ -1,13 +1,13 @@
 #!/usr/bin/node
 
-exports.esrever = function (list) {
-  if (list.length === 0) {
-    return [];
+exports.nbOccurences = function (list, searchElement) {
+  let count = 0;
+  let ind = 0;
+  while (list[ind]) {
+    if (list[ind] === searchElement) {
+      count++;
+    }
+    ind++;
   }
-  const newList = [list[list.length - 1]];
-  let i;
-  for (i = list.length - 2; i > -1; i--) {
-    newList.push(list[i]);
-  }
-  return newList;
+  return count;
 };
