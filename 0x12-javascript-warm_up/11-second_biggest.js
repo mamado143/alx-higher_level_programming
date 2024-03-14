@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 
 let i = 2;
@@ -27,4 +26,3 @@ if (process.argv.length < 4) {
   }
   console.log(finalList[1]);
 }
-
