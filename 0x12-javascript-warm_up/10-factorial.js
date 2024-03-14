@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 
 const number = parseInt(process.argv[2]);
@@ -18,4 +17,3 @@ function factorial (a) {
     return result;
   }
 }
-
